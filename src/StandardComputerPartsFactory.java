@@ -7,7 +7,7 @@ public class StandardComputerPartsFactory implements ComputerPartsFactory {
 	}
 
 	@Override
-	public Keyboard createKeyBoard() {
+	public Keyboard createKeyboard() {
 		return new StandardKeyboard();
 	}
 

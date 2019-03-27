@@ -1,6 +1,6 @@
 
 public interface ComputerPartsFactory {
 	public Monitor createMonitor();
-	public Keyboard createKeyBoard();
+	public Keyboard createKeyboard();
 	public CPU createCPU();
 }

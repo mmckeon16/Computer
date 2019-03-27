@@ -12,7 +12,7 @@ public class AdvancedComputerPartsFactory implements ComputerPartsFactory{
 	}
 
 	@Override
-	public Keyboard createKeyBoard() {
+	public Keyboard createKeyboard() {
 		return new AdvancedKeyboard();
 	}
 
